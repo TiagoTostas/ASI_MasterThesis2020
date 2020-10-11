@@ -1,0 +1,7 @@
+*** Installation started 2013/04/19 11:49 ***
+Source: C:\Users\Priscila Alves\Downloads\ujson-1.30.win32-py2.6 (1).exe
+999 Root Key: HKEY_CURRENT_USER
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\ujson-py2.6]DisplayName=Python 2.6 ujson-1.30
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\ujson-py2.6]UninstallString="C:\Python26\Removeujson.exe" -u "C:\Python26\ujson-wininst.log"
+200 File Copy: C:\Python26\Lib\site-packages\ujson-1.30-py2.6.egg-info
+200 File Copy: C:\Python26\Lib\site-packages\ujson.pyd

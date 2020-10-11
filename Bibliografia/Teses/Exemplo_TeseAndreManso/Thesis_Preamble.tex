@@ -1,0 +1,220 @@
+\usepackage{graphicx, caption}
+\usepackage{url}
+\usepackage{subcaption}
+\graphicspath{{Figures/} {Figures/system/} {Figures/android/} {Figures/gear/testes_bvp} {Figures/gear/} {Figures/gear_hospital/}}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{placeins}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{textcomp}
+\usepackage{makeidx}
+\usepackage{amsmath} %characteres especias math
+\usepackage{hyperref} %faz as referencias
+\hypersetup{colorlinks,       % color text of links and anchors,
+	% eliminates borders around links
+	%            linkcolor=red,    % color for normal internal links
+	linkcolor=black,  % color for normal internal links
+	anchorcolor=black,% color for anchor text
+	%            citecolor=green,  % color for bibliographical citations
+	citecolor=black,  % color for bibliographical citations
+	%            filecolor=magenta,% color for URLs which open local files
+	filecolor=black,  % color for URLs which open local files
+	%            menucolor=red,    % color for Acrobat menu items
+	menucolor=black,  % color for Acrobat menu items
+	%            pagecolor=red,    % color for links to other pages
+	pagecolor=black,  % color for links to other pages
+	%            urlcolor=cyan,    % color for linked URLs
+	urlcolor=black,   % color for linked URLs
+	bookmarks=true,         % create PDF bookmarks
+	bookmarksopen=false,    % don't expand bookmarks
+	bookmarksnumbered=true, % number bookmarks
+	pdftitle={Thesis},
+	pdfauthor={Andre C. Marta},
+	pdfsubject={Thesis Title},
+	pdfkeywords={Thesis Keywords},
+	pdfstartview=FitV,
+	pdfdisplaydoctitle=true}
+\usepackage{cleveref} %faz as referencias
+\usepackage{titlesec} %define os espaçamentos dos cabeçalhos
+\usepackage{cite} %faz a bibliografia
+\usepackage{array}
+\usepackage{listings}
+\usepackage{color}
+
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+
+
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.5}
+
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\lstset{
+	basicstyle=\footnotesize\tt,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	frame=single,                    % adds a frame around the code
+	language=Java,                 % the language of the code
+	keywordstyle=\bf,
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	tabsize=2,                       % sets default tabsize to 2 spaces
+	commentstyle=\color{pgreen},
+	keywordstyle=\color{pblue},
+	stringstyle=\color{pred},
+	moredelim=[il][\textcolor{pgrey}]{$$$$},
+	moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
+
+\lstset{
+	language=C++,
+	basicstyle=\footnotesize\tt,
+	commentstyle=\color{mygray},
+	frame=single,
+	numbers=left,
+	numbersep=5pt,
+	numberstyle=\tiny\color{mygray},
+	keywordstyle=\color{mygreen},
+	showspaces=false,
+	showstringspaces=false,
+	stringstyle=\color{myorange},
+	tabsize=2
+}
+%\lstset{language=C++,
+%	keywordstyle=\color{blue},
+%	stringstyle=\color{red},
+%	commentstyle=\color{green},
+%	tabsize=2,
+%	morecomment=[l][\color{magenta}]{\#}
+%}
+
+\titleformat{\chapter}{\bfseries\huge}{\thechapter.}{12pt}{}
+\titlespacing*{\chapter}{0pt}{-35pt}{10pt}
+
+\newenvironment{conditions}
+{\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${} \rightarrow {}$} l}}
+	{\end{tabular}\par\vspace{\belowdisplayskip}}
+
+
+\newcommand{\acknowledgments}{@undefined} % new LaTeX variable name
+\addto\captionsenglish{\renewcommand{\acknowledgments}{Acknowledgments}}
+%\addto\captionsenglish{\renewcommand{\contentsname}{Contents}}
+%\addto\captionsenglish{\renewcommand{\listtablename}{List of Tables}}
+%\addto\captionsenglish{\renewcommand{\listfigurename}{List of Figures}}
+%\addto\captionsenglish{\renewcommand{\nomname}{Nomenclature}}
+%\addto\captionsenglish{\renewcommand{\glossaryname}{Glossary}}
+%\addto\captionsenglish{\renewcommand{\acronymname}{List of Acronyms}}
+%\addto\captionsenglish{\renewcommand{\bibname}{References}} % Bibliography
+%\addto\captionsenglish{\renewcommand{\appendixname}{Appendix}}
+
+\newcommand{\coverThesis}{@undefined} % new LaTeX variable name
+\newcommand{\coverSupervisors}{@undefined} % new LaTeX variable name
+\newcommand{\coverExaminationCommittee}{@undefined} % new LaTeX variable name
+\newcommand{\coverChairperson}{@undefined} % new LaTeX variable name
+\newcommand{\coverSupervisor}{@undefined} % new LaTeX variable name
+\newcommand{\coverMemberCommittee}{@undefined} % new LaTeX variable name
+% > English
+\addto\captionsenglish{\renewcommand{\coverThesis}{Thesis to obtain the Master of Science Degree in}}
+\addto\captionsenglish{\renewcommand{\coverSupervisors}{Supervisor(s)}}
+\addto\captionsenglish{\renewcommand{\coverExaminationCommittee}{Examination Committee}}
+\addto\captionsenglish{\renewcommand{\coverChairperson}{Chairperson}}
+\addto\captionsenglish{\renewcommand{\coverSupervisor}{Supervisor}}
+\addto\captionsenglish{\renewcommand{\coverMemberCommittee}{Member of the Committee}}
+% > Portuguese
+\addto\captionsportuguese{\renewcommand{\coverThesis}{Disserta\c{c}\~{a}o para obten\c{c}\~{a}o do Grau de Mestre em}}
+\addto\captionsportuguese{\renewcommand{\coverSupervisors}{Orientador(es)}}
+\addto\captionsportuguese{\renewcommand{\coverExaminationCommittee}{J\'{u}ri}}
+\addto\captionsportuguese{\renewcommand{\coverChairperson}{Presidente}}
+\addto\captionsportuguese{\renewcommand{\coverSupervisor}{Orientador}}
+\addto\captionsportuguese{\renewcommand{\coverMemberCommittee}{Vogal}}
+
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+
+\def\FontLn{% 16 pt normal
+	\usefont{T1}{phv}{m}{n}\fontsize{16pt}{16pt}\selectfont}
+\def\FontLb{% 16 pt bold
+	\usefont{T1}{phv}{b}{n}\fontsize{16pt}{16pt}\selectfont}
+\def\FontMn{% 14 pt normal
+	\usefont{T1}{phv}{m}{n}\fontsize{14pt}{14pt}\selectfont}
+\def\FontMb{% 14 pt bold
+	\usefont{T1}{phv}{b}{n}\fontsize{14pt}{14pt}\selectfont}
+\def\FontSn{% 12 pt normal
+	\usefont{T1}{phv}{m}{n}\fontsize{12pt}{12pt}\selectfont}
+
+\usepackage{nomencl}
+\makenomenclature
+%
+% Group variables according to their symbol type
+%
+\RequirePackage{ifthen} 
+\ifthenelse{\equal{\languagename}{english}}%
+{ % English
+	\renewcommand{\nomgroup}[1]{%
+		\ifthenelse{\equal{#1}{R}}{%
+			\item[\textbf{Roman symbols}]}{%
+			\ifthenelse{\equal{#1}{G}}{%
+				\item[\textbf{Greek symbols}]}{%
+				\ifthenelse{\equal{#1}{S}}{%
+					\item[\textbf{Subscripts}]}{%
+					\ifthenelse{\equal{#1}{T}}{%
+						\item[\textbf{Superscripts}]}{}}}}}%
+}{% Portuguese
+	\renewcommand{\nomgroup}[1]{%
+		\ifthenelse{\equal{#1}{R}}{%
+			\item[\textbf{Simbolos romanos}]}{%
+			\ifthenelse{\equal{#1}{G}}{%
+				\item[\textbf{Simbolos gregos}]}{%
+				\ifthenelse{\equal{#1}{S}}{%
+					\item[\textbf{Subscritos}]}{%
+					\ifthenelse{\equal{#1}{T}}{%
+						\item[\textbf{Sobrescritos}]}{}}}}}%
+}%
+
+
+\usepackage{acro}
+%\acsetup{list-style=tabular}
+\acsetup{extra-style=comma}
+
+\usepackage{rotating}
+\usepackage[numbers]{natbib} % <<<<< References in numbered list [1],[2],...
+\usepackage{notoccite}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\newcommand{\ud}{\mathrm{d}}                % total derivative
+\newcommand{\degree}{\ensuremath{^\circ\,}} % degrees
+\newcommand{\mcol}{\multicolumn}            % table format
+
+\newcommand{\eqnref}[1]{(\ref{#1})}
+\newcommand{\class}[1]{\texttt{#1}}
+\newcommand{\package}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{#1}}
+\newcommand{\BibTeX}{\textsc{Bib}\TeX}
+
+\newcommand{\tr}[1]{{\ensuremath{\textrm{#1}}}}   % text roman
+\newcommand{\tb}[1]{{\ensuremath{\textbf{#1}}}}   % text bold face
+\newcommand{\ti}[1]{{\ensuremath{\textit{#1}}}}   % text italic
+\newcommand{\mc}[1]{{\ensuremath{\mathcal{#1}}}}  % math calygraphy
+\newcommand{\mco}[1]{{\ensuremath{\mathcalold{#1}}}}% math old calygraphy
+\newcommand{\mr}[1]{{\ensuremath{\mathrm{#1}}}}   % math roman
+\newcommand{\mb}[1]{{\ensuremath{\mathbf{#1}}}}   % math bold face
+\newcommand{\bs}[1]{\ensuremath{\boldsymbol{#1}}} % math symbol
+\def\bm#1{\mathchoice                             % math bold
+	{\mbox{\boldmath$\displaystyle#1$}}%
+	{\mbox{\boldmath$#1$}}%
+	{\mbox{\boldmath$\scriptstyle#1$}}%
+	{\mbox{\boldmath$\scriptscriptstyle#1$}}}
+\newcommand{\boldcal}[1]{{\ensuremath{\boldsymbol{\mathcal{#1}}}}}% math bold calygraphy
+

@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Nomenclature.tex                                    %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified : 21 Jan 2011                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% The definitions can be placed anywhere in the document body
+% and their order is sorted by <symbol> automatically when
+% calling makeindex in the makefile
+%
+% The \glossary command has the following syntax:
+%
+% \glossary{entry}
+%
+% The \nomenclature command has the following syntax:
+%
+% \nomenclature[<prefix>]{<symbol>}{<description>}
+%
+% where <prefix> is used for fine tuning the sort order,
+% <symbol> is the symbol to be described, and <description> is
+% the actual description.
+
+% ----------------------------------------------------------------------
+%% Roman symbols [r]
+%\nomenclature[ru]{$\bf u$}{Velocity vector.}
+%\nomenclature[ru]{$u,v,w$}{Velocity Cartesian components.}
+%\nomenclature[rp]{$p$}{Pressure.}
+%\nomenclature[rC]{$C_D$}{Coefficient of drag.}
+%\nomenclature[rC]{$C_L$}{Coefficient of lift.}
+%\nomenclature[rC]{$C_M$}{Coefficient of moment.}
+%
+%% ----------------------------------------------------------------------
+%% Greek symbols [g]
+%\nomenclature[g]{$\rho$}{Density.}
+%\nomenclature[g]{$\alpha$}{Angle of attack.}
+%\nomenclature[g]{$\beta$}{Angle of side-slip.}
+%\nomenclature[g]{$\mu$}{Molecular viscosity coefficient.}
+%\nomenclature[g]{$\kappa$}{Thermal conductivity coefficient.}
+%
+%% ----------------------------------------------------------------------
+%% Subscripts [s]
+%\nomenclature[s]{$x,y,z$}{Cartesian components.}
+%\nomenclature[s]{$i,j,k$}{Computational indexes.}
+%\nomenclature[s]{$\infty$}{Free-stream condition.}
+%\nomenclature[s]{ref}{Reference condition.}
+%\nomenclature[s]{$n$}{Normal component.}
+%
+%% ----------------------------------------------------------------------
+%% Supercripts [t]
+%\nomenclature[t]{T}{Transpose.}
+%\nomenclature[t]{*}{Adjoint.}
+
+\DeclareAcronym{angelsperarea}{
+	short = \ensuremath{a} ,
+	long  = The number of angels per unit area ,
+	sort  = a ,
+	class = nomencl
+}
+\DeclareAcronym{numofangels}{
+	short = \ensuremath{N} ,
+	long  = The number of angels per needle point ,
+	sort  = N ,
+	class = nomencl
+}
+\DeclareAcronym{areaofneedle}{
+	short = \ensuremath{A} ,
+	long  = The area of the needle point ,
+	sort  = A ,
+	class = nomencl
+}
+
+%\DeclareAcronym{bpm}{
+%	short = bpm ,
+%	long  = Beats Per Minute ,
+%	sort  = bpm ,
+%	class = nomencl
+%}
+%
+%\DeclareAcronym{sd}{
+%	short = SD ,
+%	long  = Secure Digital card,
+%	sort  = bpm ,
+%	class = nomencl
+%}
+%
+%\DeclareAcronym{os}{
+%	short = OS ,
+%	long  = Operative System,
+%	sort  = bpm ,
+%	class = nomencl
+%}
+
+

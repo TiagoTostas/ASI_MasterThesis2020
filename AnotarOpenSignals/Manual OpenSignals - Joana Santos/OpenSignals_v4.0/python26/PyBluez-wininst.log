@@ -1,0 +1,27 @@
+*** Installation started 2013/04/18 17:38 ***
+Source: C:\Users\Priscila Alves\Desktop\To Install\PyBluez-0.18.win32-py2.6 (2).exe
+999 Root Key: HKEY_CURRENT_USER
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\PyBluez-py2.6]DisplayName=Python 2.6 PyBluez-0.18
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\PyBluez-py2.6]UninstallString="C:\Python26\RemovePyBluez.exe" -u "C:\Python26\PyBluez-wininst.log"
+200 File Copy: C:\Python26\Lib\site-packages\PyBluez-0.18-py2.6.egg-info
+100 Made Dir: C:\Python26\Lib\site-packages\bluetooth
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\bluez.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\btcommon.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\msbt.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\osx.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\widcomm.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\_msbt.pyd
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\_widcomm.pyd
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\__init__.py
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\__init__.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\widcomm.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\osx.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\msbt.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\btcommon.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\bluez.pyc
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\__init__.pyo
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\widcomm.pyo
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\osx.pyo
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\msbt.pyo
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\btcommon.pyo
+200 File Copy: C:\Python26\Lib\site-packages\bluetooth\bluez.pyo

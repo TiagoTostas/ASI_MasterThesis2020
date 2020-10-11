@@ -1,0 +1,173 @@
+\documentclass[10pt,a4paper,twoside]{report}
+
+\input{Thesis_Preamble} % file "Thesis_Preamble.tex"
+
+\input{Thesis_Nomenclature}
+\input{Thesis_Glossary}
+
+\begin{document}
+
+\pagestyle{plain}
+
+% Set roman numbering (i,ii,...) before the start of chapters
+\pagenumbering{roman}
+
+\input{Thesis_FrontCover} % file "Thesis_FrontCover.tex"
+\cleardoublepage
+
+%\input{Thesis_Dedication} % file "Thesis_Dedication.tex"
+%\cleardoublepage
+
+\input{Thesis_Acknowledgements} % file "Thesis_Acknowledgements.tex"
+\cleardoublepage
+
+\input{Thesis_Resumo}   % file "Thesis_Resumo.tex"
+\cleardoublepage
+
+\input{Thesis_Abstract} % file "Thesis_Abstract.tex"
+\cleardoublepage
+
+\tableofcontents
+\cleardoublepage 
+
+\phantomsection
+\addcontentsline{toc}{section}{\listtablename}
+% Generate list
+\listoftables
+\cleardoublepage 
+
+
+\phantomsection
+\addcontentsline{toc}{section}{\listfigurename}
+% Generate list
+\listoffigures
+\cleardoublepage 
+
+
+%\input{Thesis_Nomenclature} % file "Thesis_Nomenclature.tex"
+
+%\phantomsection
+%\addcontentsline{toc}{section}{\nomname}
+%% Insert glossary/nomenclature section produced by MakeIndex
+%\printacronyms[include-classes=nomencl,name=Acronyms]
+%\cleardoublepage
+
+
+%\input{Thesis_Glossary} % file "Thesis_Glossary.tex"
+
+
+\phantomsection
+\addcontentsline{toc}{section}{\glossaryname}
+\printacronyms[name=Acronyms]
+\cleardoublepage
+
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+
+\input{Thesis_Introduction} % file "Thesis_Introduction.tex"
+\cleardoublepage
+
+\input{Thesis_Background} % file "Thesis_Background.tex"
+\cleardoublepage
+
+\input{System_Description} % file "Thesis_Implementation.tex"
+\cleardoublepage
+
+\input{DataProcessing} % file "Thesis_Implementation.tex"
+\cleardoublepage
+
+\input{System_Evaluation} % file "Thesis_Implementation.tex"
+\cleardoublepage
+
+%\input{Gear} % file "Thesis_Implementation.tex"
+%\cleardoublepage
+%
+%\input{Gear_Hospital} % file "Thesis_Implementation.tex"
+%\cleardoublepage
+
+%\input{Thesis_Results} % file "Thesis_Results.tex"
+%\cleardoublepage
+
+\input{Thesis_Conclusions} % file "Thesis_Conclusions.tex"
+\cleardoublepage
+
+
+% Add entry in the table of contents as chapter
+\phantomsection
+\addcontentsline{toc}{chapter}{\bibname}
+
+% Include all references in .bib file, even non-cited ones...
+%\nocite{*} % this should be used carefully because it is not correct!
+
+% Produces the bibliography section when processed by BibTeX
+%
+% Bibliography style
+% > entries ordered alphabetically
+%\bibliographystyle{plain}
+% > unsorted with entries appearing in the order in which the citations appear.
+%\bibliographystyle{unsrt}
+% > entries ordered alphabetically, with first names and names of journals and months abbreviated
+%\bibliographystyle{abbrv}
+% > entries ordered alphabetically, with reference markers based on authors' initials and publication year
+%\bibliographystyle{alpha}
+%
+% Replacement bibliography styles provided by 'natbib' package
+% (plainnat.bst, abbrvnat.bst, unsrtnat.bst )
+% > entries ordered alphabetically
+%\bibliographystyle{plainnat}
+% > unsorted with entries appearing in the order in which the citations appear.
+%\bibliographystyle{unsrtnat}
+% > entries ordered alphabetically, with first names and names of journals and months abbreviated
+%\bibliographystyle{abbrvnat} % <<<<< SELECT IF USING REFERENCES BY AUTHOR/YEAR
+% > entries ordered alphabetically, with reference markers based on authors' initials and publication year
+%\bibliographystyle{alpha}
+%
+% Custom bibliography style adapted from 'natbib' package
+%   (based on http://tex.stackexchange.com/questions/5053/is-it-possible-to-get-unsrt-abbrv-bibliography)
+%   (unsrtnat.bst + abbrvnat.bst -> abbrvunsrtnat.bst)
+%   (original files copied from:
+%   http://tug.ctan.org/macros/latex/contrib/natbib/abbrvnat.bst
+%   http://tug.ctan.org/macros/latex/contrib/natbib/unsrtnat.bst
+% > unsorted with entries appearing in the order in which the citations appear, with first names and names of journals and months abbreviated.
+\bibliographystyle{abbrvunsrtnat} % <<<<< SELECT IF USING REFERENCES BY NUMBER (CITATION ORDER)
+
+% External bibliography database file in the BibTeX format
+\bibliography{Thesis_bib_DB} % file "Thesis_bib_DB.bib"
+
+\cleardoublepage
+
+% ----------------------------------------------------------------------
+%  Appendix (optional)
+%
+%  CAUTION: 1) the main document (up to the conclusions) shall not exceed 80 pages
+%           2) the document shall not exceed a total of 100 pages (per IST regulations)
+% ----------------------------------------------------------------------
+
+%APENDICES!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-!-
+
+\appendix
+
+% add page number prefix according to apendix chapter (optional)
+\renewcommand{\thepage}{\thechapter.\arabic{page}}
+
+% re-set arabic numbering (A.1,A.2,...) (optional, use only if chapter prefix is added)
+\setcounter{page}{1}
+
+\input{Thesis_Appendix_A} % file "Thesis_Appendix_A.tex"
+\cleardoublepage
+
+% re-set arabic numbering (B.1,B.2,...) (optional, use only if chapter prefix is added)
+\setcounter{page}{1}
+
+\input{Thesis_Appendix_B} % file "Thesis_Appendix_B.tex"
+\cleardoublepage
+
+\setcounter{page}{1}
+
+\input{Thesis_Appendix_C} % file "Thesis_Appendix_B.tex"
+
+% ----------------------------------------------------------------------
+\end{document}
+% ----------------------------------------------------------------------
+

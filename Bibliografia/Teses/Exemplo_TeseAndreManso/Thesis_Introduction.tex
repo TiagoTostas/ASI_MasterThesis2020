@@ -1,0 +1,100 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Introduction.tex                                    %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  2 Jul 2015                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\label{chapter:introduction}
+
+
+This work describes a novel system, designed to pervasively monitor patients for long periods of time in and outside of the hospital. The system collects medically relevant data and display it in real time through a web interface. This allows medical teams to permanently monitor patients and remotely access real-time and past values of the desired variables. This allows to detect patterns associated with certain diseases and monitor their progression or even check medication effectiveness.
+The system is designed to require as least maintenance as possible and, apart from charging the device's batteries, it can operate for up to two months without intervention.
+
+The proposed system is distinct from others used in medical practice (like Holter monitors for example) as it is designed to be used for long periods of time outside of hospital environment and it is completely versatile concerning the measured variables. In fact versatility is one of the main aspects of the implemented architecture. The system is prepared to deal with any sensor that provides Bluetooth connectivity with minimal implementation cost. This is accomplished using a smartphone as a mobile hub for data collection, centralizing the information from the patient's designated sensors. The smartphone stores the information incoming from the sensors and, if necessary, processes it to produce more informative measures. Information is then relayed to a central server where it is permanently stored and displayed when required through a web interface. Physicians can specify which sensors should be active with each patient and which are the relevant variables to be measured and displayed. Besides data visualization, it is also possible to configure alarms and receive a notification when a certain event occurs e.g. heart rate is below 50\ac{bpm} for more than 5 minutes.
+
+A previous project \cite{telemold} served as base for the development of the currently proposed system. Although all system components were modified, updated or replaced, the software already implemented for this project served as a base for the currently proposed system.
+
+The system was tested on patients with cardiac diseases from \ac{hsm} in Lisbon and the main variables collected were \ac{hr} and \ac{mets} \cite{crouter_METS}. These variables were indicated by the hospital's cardiology team as being common variables used in their practice to diagnose and track patients \cite{importancia_HR_METS, importancia_HR_METS_2}. Variables to be collected determined the type of sensors needed. In particular, heart rate can be used as a major clinical indicator for patients with heart diseases \cite{doenca1, doenca2, doenca3}.
+
+To match requirements or the test conditions two sensors were used, a \ac{ppg} sensor in a smartwatch allows to estimate \ac{hr} and a tri-axial accelerometer in the smartphone allows to estimate METs. An additional device based on BITalino was used to collect both \ac{ecg} and \ac{acc} from which \ac{hr} and METs were also calculated. BITalino was chosen for being a very versatile and modular tool, with the ability of acquiring ECG with quality similar to a certified medical device \cite{bitalinobatista2017experimental,bitalinoguerreiro2013bitalino} which is a more informative signal that \ac{ppg}.
+
+%\bigskip
+%\textcolor{red}{\Large \textbf{Falar do \ac{ppg} e BVP, ACC e ECG}}
+%\bigskip
+%
+%
+%The focus of this thesis is the design and implementation of a pervasive, long term monitoring system to be used with hospitalized and non-hospitalized patients. 
+%
+%The project was developed in collaboration with the cardiology service of Hospital de Santa Marta, Lisbon and Cast Lda. The collaboration with the hospital allowed the system to be tested and used with several cardiac patients. Cast Lda provided equipment and software that was implemented by INSTICC for a previous project that served as basis for the current system. (All pre-implemented software components were updated and adapted. Most features used in this project ended up being built from scratch.)
+%
+%The main variables collected are heart rate (HR) and Metabolic Equivalent of Tasks (METs) \cite{crouter_METS}. These variables were indicated by the hospital cardiology team as being common variables used in their practice to diagnose and track patients. \textcolor{red}{\Large \textbf{importancia dos mets hr - referencias no .bib}}
+%
+%Patient's status is continuously collected using several sensors included in a smartphone and a smartwatch and data is locally processed and sent to a central server from where the physicians and medical teams can see, in real time, what is happening to the patient through a web interface. It is also possible to configure alarms and receive a notification when a certain event occurs e.g. heart rate is below 50 for more than 5 minutes. 
+%
+%A photoplethysmography sensor in the smartwatch allows to estimate HR and a tri-axial accelerometer in the smartphone allows to estimate METs. As a way of validating the collected information, an additional device based on BITalino was used to collect both electrocardiogram and accelerometry from which HR and METs were also calculated. BITalino was chosen for being a very versatile and modular tool, with the ability of acquiring ECG with quality similar to a certified medical device \cite{bitalinobatista2017experimental,bitalinoguerreiro2013bitalino}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Motivation}
+\label{section:motivation}
+
+In recent years, pervasive monitoring and personalized medicine, are becoming two of the most common words when describing the future health-care. Medical teams and patients are becoming increasingly eager to have better and more efficient treatments and approaches, that are tailor made to best fit each patient's condition, maximizing health gains and life quality.
+
+Continuous health monitoring is a very promising field of research \cite{prospective} and to accomplish this, pervasive medical data collection with distributed wearable sensor networks can play an important role. Simultaneously, sensors and smart devices are becoming ubiquitous and is now possible to monitor one's activities and physiological parameters resorting to several types of devices with improving capabilities and decreasing costs. This allows for pervasive monitoring to be a tool in tomorrow's health-care, introducing continuous collection of information about one's symptoms, physiological parameters, activities and even preferences, that can make a difference when diagnosing, treating and tracking the evolution of one's condition.
+
+The evolution of technology also allowed for the development of wearable sensors that can be integrated into the patient's life without causing to much discomfort. In fact wearable sensors, and smartwaches in particular,  have been studied many times \cite{wearables, sensor} and even its applicability as a source of clinical information has been proposed \cite{compare, relogioarritmia, doenca2}.
+
+Despite great evolution in technology, the leap into hospital environment has not taken place yet, at least  not in a generalized manner. This has to do with the very hard requirements this context puts into devices and also with the lack of systems with simple interfaces, low maintenance and high quality sensors, capable of providing useful information. In this context the proposed system has a good chance of satisfying the needs for many medical applications, as it can interact with a great number of different sensor platforms, with a convenient interface for both medical teams and patients.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Topic Overview}
+%\label{section:overview}
+%
+%Provide an overview of the topic to be studied...
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objectives}
+\label{section:objectives}
+
+The main objective of this work is to develop and test a monitoring system that can be used in hospital environment and also with patients in ambulatory treatment, with the particularity of being as generic as possible regarding the sensors and variables it can collect. This means that the same system, being able to interact with (almost) any sensors, could be used in an enormous variety of situations with minimal implementation cost.
+
+Particularly, the expected result of this thesis is to have a functioning pervasive and long term monitoring system and also to conduct tests in hospital context for which it was developed.
+
+Testing, ideally, would cover system functioning but also the reliability of the data coming from the sensors chosen for the test context, which will be the cardiology department of \ac{hsm}. System functioning tests include the reliability of data acquisition, storing and processing, battery duration for each device and also more subjective aspects like ease of use by physicians, patients and medical teams.
+
+In an ideal scenario, if the tests all have positive outcomes, the system should be implemented for regular use as a diagnose and follow up tool in the cardiology department of \ac{hsm}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Thesis Outline}
+\label{section:outline}
+
+This first chapter introduces the topic and establishes the main objectives of this work.
+
+In \cref{chapter:background} an overview of the state-of-the-art is made, and bibliographic base for methods used are presented and justified.
+
+The description of all the features implemented and the functioning of the entire system are presented in \cref{chapter:description}.
+
+Algorithms and data management methods used are described in \cref{chapter:Data Processing}.
+
+Testing procedures with their results are presented in \cref{chapter:evaluation}.
+
+Finally, general comments on the results obtained and the future developments that can take place are presented in \cref{chapter:conclusions}.
+
+\Cref{apendix:userguide} contains the user guides elaborated to serve as a reference for medical teams when syestem tests started.
+
+In \cref{apendix:system} technical details are provided on the implemented communication protocol between the central server and the smartphone.
+
+\Cref{apendix:paper} refers to a submitted paper analyzing the accuracy of smartwatche's \ac{hr} estimation.
+
+\bigskip
+\textcolor{red}{\Large \textbf{Anexar paper? (anexo C)}}
+\bigskip
+
