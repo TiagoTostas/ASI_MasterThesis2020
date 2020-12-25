@@ -136,7 +136,7 @@ uint32_t peak_detector(int16_t rawECG ){ 				//input ADC sample and sample frequ
   
 
 // HEART RATE from RR-INTERVALS 
-void swap(uint16_t *p,uint16_t *q) {
+void swap(uint16_t *p, uint16_t *q) {
    uint16_t t;   // temporary value
    t = *p;
    *p = *q;

@@ -1,4 +1,10 @@
 %% Sensitivity and Positive Predictivity
+%{
+Benchmarking comparison of the ASI_segmenteer algorithm in the common ECG
+databases: MIT-BIH, ST-T database, noise and stress MIT-BIH (nstd) and
+Challenge 2014.
+%}
+
 
 %% Compare against European ST-T Database
 fid = fopen('/Users/tiagorodrigues/Universidade de Lisboa/Ana Luisa Nobre Fred - TiagoRodrigues_EPFL_FieldWiz_tese_2020/FieldWiz_MATLAB/Database_comparison/ST-segment/RECORDS.txt');
@@ -40,6 +46,7 @@ tol = round (0.1 / (1/Fs));
     
 end
 
+% Simulation ended signal
 load handel
 sound(y,Fs)
 
@@ -72,7 +79,7 @@ Fs = 250;
 for i = 1 :length(id)
     
 % read signal and compute peaks
-%[sig(:,i), Fs, tm] = rdsamp(strcat('mitdb/',num2str(id(i))), 1);
+[sig(:,i), Fs, tm] = rdsamp(strcat('mitdb/',num2str(id(i))), 1);
 [ann,anntype,subtype,chan,num,comments] = rdann(strcat('mitdb/',num2str(id(i))),'atr');
 
 % consider only beat annotations
@@ -80,14 +87,6 @@ beat_ann = {'N','L','R','B','A','a','J','S','V','r','F','e','j','n','E','/','f',
 %beat_ann = {'N'};
 bol_beats = ismember(anntype,beat_ann);
 rpeaks_ref = ann(bol_beats);
-
-% % plot original signal with reference points, just for visuals
-% figure(2)
-% rpeak_refamplitudes = sig(rpeaks_ref);
-% plot(sig)
-% hold on
-% plot(rpeaks_ref,rpeak_refamplitudes,'*g');
-% hold off
 
 [rpeaks_positions, rpeaksproc_amp] = ASI_segmenter(sig(:,i),360,0,3);
 
@@ -240,7 +239,7 @@ tol = round (0.1 / (1/Fs));
             TP(i) = TP(i)+1;   
         end
     end
-    
+    s
     FP(i) = length(rpeaks_positions) - TP(i);
     FN(i) = length(rpeaks_ref) - TP(i);
     

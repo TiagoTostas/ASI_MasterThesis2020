@@ -1,3 +1,10 @@
+%{
+1) Load ECG signal and evaluate R-peak detection
+2) Compute instantaneous heartrate and hearrate from the moving median
+3) Compare signal quality from wearable T-shirt with water / no-waater and
+electrode gel
+%}
+
 %% Load Data
 fid = fopen('Users/tiagorodrigues/OneDrive - Universidade de Lisboa/TiagoRodrigues_EPFL_FieldWiz_tese_2020/Data/Activities/20200508-SS-Belt.txt') ;
 data = textscan(fid,'%f','HeaderLines',3);
@@ -6,7 +13,6 @@ fclose(fid);
 
 fs = 250;
 [rpeaks_positions, rpeaksproc_amp] = ASI_segmenter(ecg,fs,1,5);
-%[~,~,~,~,~,rr_intervals,rr_time] = HRV(rpeaks_positions,fs);
 
 rpeaks = ecg(rpeaks_positions);
 time = 1/250:1/250:length(ecg)/250;

@@ -4,7 +4,7 @@ directory = dir(pathname);
 dircell = struct2cell(directory)' ;   
 filenames = dircell(4:end,1);
 
-name = 'TR';
+name = 'IR';
 indexes = find(~cellfun(@isempty,strfind(filenames,name)));
 num_recordings = length(indexes);
 
@@ -21,7 +21,7 @@ for i=1:num_recordings-1
     time = 1/250:1/250:length(ecg)/250;
     [rpeaks_positions, rpeaksproc_amp] = ASI_segmenter(ecg,250,0,2);
     fs = 250;
-    [sdnn,rmssd,lnrmssd,rr_intervals,rr_time] = HRV(rpeaks_positions,fs) ;
+    [sdnn,rmssd,lnrmssd,rr_intervals,rr_time] = HRV_2min(rpeaks_positions,fs) ;
 
         
     subplot(num_recordings-1,3,(i-1)*3+1)
