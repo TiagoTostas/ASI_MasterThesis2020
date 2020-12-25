@@ -8,10 +8,8 @@ function [rpeaks_positions, rpeaksproc_amp] = ASI_segmenter(ecg,fs,gr,Pth)
 %% References
 %{
 Modification by Tiago Rodrigues, based on:
-[R. Gutiérrez-rivas 2015] Novel Real-Time Low-Complexity QRS Complex Detector
-                          Based on Adaptive Thresholding. Vol. 15,no. 10, pp. 6036?6043, 2015.
-[D. Sadhukhan]  R-Peak Detection Algorithm for Ecg using Double Difference
-                And RRInterval Processing. Procedia Technology, vol. 4, pp. 873?877, 2012.
+[R. Gutiérrez-rivas 2015] Novel Real-Time Low-Complexity QRS Complex Detector Based on Adaptive Thresholding. Vol. 15,no. 10, pp. 6036?6043, 2015.
+[D. Sadhukhan] R-Peak Detection Algorithm for Ecg using Double Difference And RRInterval Processing. Procedia Technology, vol. 4, pp. 873?877, 2012.
 %}
  
 %% Inputs
@@ -22,19 +20,26 @@ gr = 1 for plots; gr = 0 no plots
 Pth = exponential decay rate (rest=2 -> up to intense exercise = 10)
 %}
  
-
 %% Outputs
 % rpeaks = location of the rpeaks
 % rpeaks_amp = peaks of the processed ecg
 
+
+%% Bandpass filter the signal
+% Bandpass filter [3 45]Hz
+% Fn = fs/2;  %nquyst frequency
+% b = fir1(48,[3, 45]/Fn);
+% a = 1;
+%ecg = filtfilt(b,a,ecg);
+
 %% R-peaks detection algorithm
 %constants for Fs = 250Hz
-Nd = 5;
+Nd = 4;
 Rmin = 0.2;
 rpeaks_positions = [];
 
 % buffers for the pre processed signals
-i = 7;
+i = 9;
 tf = length(ecg);
 diff = zeros(1,tf);
 ddiff = zeros(1,tf);
@@ -43,7 +48,6 @@ processed_ecg = zeros(1,tf);
 threshold = zeros(1,tf);
   
 % adaptive detection threshold
-Ramptotal = 0;
 Thr = 0;
 
 % counter for the state
@@ -60,14 +64,13 @@ while i < tf
     %Pre-processing: derivative x[n]-x[n-Nd]; derivative x[n]-x[n-1]; squaring: x[n]^2 and integration: 5 samples
     diff(i) = ecg(i) - ecg(i - Nd);
     ddiff(i) = diff(i) - diff(i - 1);
-    squar(i) = ddiff(i) * ddiff(i);
+    squar(i) = ddiff(i) * ddiff(i); 
     processed_ecg(i) = (squar(i)+squar(i-1)+squar(i-2)+squar(i-3)+squar(i-4))/5;
     
     % State 1: looking for maximum    
     % Rpeak amplitude and position 
     if state == 1
         if counter < tf1
-            
             if processed_ecg(i) > Rpeakamp
                 Rpeakamp = processed_ecg(i);
                 rpeakpos = i-delay;
@@ -78,12 +81,12 @@ while i < tf
         else
             threshold(i) = Rpeakamp;
             state = 2;
-            Ramptotal = (19/20)*Ramptotal + (1/20)*Rpeakamp;
+            Ramptotal = (19/20) * Ramptotal + (1/20) * Rpeakamp;
             rpeaks_positions = [rpeaks_positions,rpeakpos];
                 
             % setting time for state 2
             d = (i - rpeakpos);
-            tf2 = tf1 +  0.2*fs - d;
+            tf2 = tf1 + 0.2 * fs - d;
             Thr = Ramptotal;   %threshold for state 3
             
         end
@@ -92,8 +95,7 @@ while i < tf
     elseif state == 2
        threshold(i) = Ramptotal;
        if counter > tf2
-            state = 3;
-           
+            state = 3;  
        end
           
     % State 3: decreasing threshold        
@@ -111,8 +113,8 @@ while i < tf
     i=i+1;   
 end
 
-%% Graphics
 
+%% Graphics
 rpeaks_pos = rpeaks_positions;
 time = 1/250:1/250:length(ecg)/250;
 rpeaksproc_amp = ecg(rpeaks_pos);    
@@ -135,9 +137,8 @@ if gr == 1
     legend('Raw ECG','R-peaks','Location','bestoutside')
     xlim([0 x2(end)])
     %ylim([-200 200])
-    ylabel('a.u')
+    ylabel('ADC value')
     grid on
-    
     
     % R-peaks plot and threshold
     ax2 = nexttile;
@@ -151,11 +152,10 @@ if gr == 1
     
     legend('Processed ECG','Detection Treshold','Location','bestoutside')
     xlabel('Time(s)')
-    ylabel('a.u')
+    ylabel('Processed ECG')
     xlim([0 x2(end)])
     grid on
     
     linkaxes([ax1 ax2],'x')
 end
     
-             
