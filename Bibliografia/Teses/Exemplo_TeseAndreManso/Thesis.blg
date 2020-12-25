@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
+The style file: abbrvunsrtnat.bst
+Database file #1: Thesis_bib_DB.bib
+Repeated entry---line 217 of file Thesis_bib_DB.bib
+ : @article{engzee
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 245 of file Thesis_bib_DB.bib
+ : @article{zhang2015joss
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 255 of file Thesis_bib_DB.bib
+ : @inproceedings{adagibbs2005active
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 263 of file Thesis_bib_DB.bib
+ : @inproceedings{laguerrewood2006active
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 271 of file Thesis_bib_DB.bib
+ : @article{zhang2015troika
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 281 of file Thesis_bib_DB.bib
+ : @inproceedings{bitalinobatista2017experimental
+ :                                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 289 of file Thesis_bib_DB.bib
+ : @inproceedings{bitalinoguerreiro2013bitalino
+ :                                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 296 of file Thesis_bib_DB.bib
+ : @article{bvponsetblazek2010multi
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 408 of file Thesis_bib_DB.bib
+ : @article{wearables
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 435 of file Thesis_bib_DB.bib
+ : @misc{Tizen_sensor
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 459 of file Thesis_bib_DB.bib
+ : @article{filter
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "b_ecg_compression_2"
+Warning--empty journal in b_data_pervasive
+Warning--there's a number but no volume in b_segmenter_2
+Warning--empty school in compare2
+Warning--empty year in android
+Warning--empty journal in article
+Warning--empty year in mortara
+(There were 11 error messages)
