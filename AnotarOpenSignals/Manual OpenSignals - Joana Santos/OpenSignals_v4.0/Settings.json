@@ -1,1 +1,0 @@
-{"MacAddress": "20:13:07:01:03:60", "Labels": ["ECG", "EDA", "ECG", "ACC", "LUX", "BAT"], "Device": "bitalino_30", "Units": ["None", "None", "None", "None", "None", "None"], "Digital": [0, 0, 0, 0], "AnotKeys": {"65": "A"}, "Analog": [0, 1, 2, 3, 4, 5]}

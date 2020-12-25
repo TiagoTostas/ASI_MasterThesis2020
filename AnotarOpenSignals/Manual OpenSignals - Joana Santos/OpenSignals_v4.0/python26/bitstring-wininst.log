@@ -1,9 +1,0 @@
-*** Installation started 2013/04/18 17:35 ***
-Source: C:\Users\Priscila Alves\Desktop\To Install\bitstring-3.0.2.win32 (1).exe
-999 Root Key: HKEY_CURRENT_USER
-040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\bitstring-py2.6]DisplayName=Python 2.6 bitstring-3.0.2
-040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\bitstring-py2.6]UninstallString="C:\Python26\Removebitstring.exe" -u "C:\Python26\bitstring-wininst.log"
-200 File Copy: C:\Python26\Lib\site-packages\bitstring-3.0.2-py3.1.egg-info
-200 File Copy: C:\Python26\Lib\site-packages\bitstring.py
-200 File Copy: C:\Python26\Lib\site-packages\bitstring.pyc
-200 File Copy: C:\Python26\Lib\site-packages\bitstring.pyo
