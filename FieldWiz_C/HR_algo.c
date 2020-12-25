@@ -4,7 +4,7 @@
 #include "app_act.h"
 
 
-//definitionn for FS 250Hz
+//definition for FS 250Hz
 #define freq_sample 250
 #define ND 5
 #define tf1 50   
