@@ -51,7 +51,6 @@ rr_time = rr_time(1:end-1) - rr_time(1); %start timestamps from 0s
 targetSampleRate = 7;
 [rr_intervalsr, rr_timer] = resample(rr_intervals,rr_time,targetSampleRate,'spline');
 
-
 %% Time-domain
 % discard first n seconds of ecg data (transient):
 t_discard = 30;
