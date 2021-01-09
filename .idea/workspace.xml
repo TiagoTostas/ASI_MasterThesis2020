@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="333af504-60e0-429d-89f8-932c3defe325" name="Default Changelist" comment="" />
+    <list default="true" id="333af504-60e0-429d-89f8-932c3defe325" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz experience.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz experience.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/HRV - Artefact correction-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/HRV - Artefact correction-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/Signal Quality Index-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/Signal Quality Index-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=10).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=10).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=5).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=5).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/HDF5 input for SignalBit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/HDF5 input for SignalBit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/HRV - Artefact correction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/HRV - Artefact correction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Kubios - Artefact correction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Kubios - Artefact correction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/AUTHORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/AUTHORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/biometrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/biometrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/plotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/bvp.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/bvp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/ecg.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/ecg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/eda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/eeg.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/eeg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/emg.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/emg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/resp.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/resp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/signals/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/timing.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/timing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/biosppy/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/biosppy.rst" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/biosppy.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/biosppy.signals.rst" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/biosppy.signals.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/images/ECG_raw.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/images/ECG_raw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/images/ECG_summary.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/images/ECG_summary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/logo_inverted_no_tag_400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/make_ico.bat" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/make_ico.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/make_small.bat" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/logo/make_small.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/make.bat" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/make.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/tutorial.rst" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/docs/tutorial.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/bvp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/bvp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/ecg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/ecg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/eda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/eda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/emg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/emg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/emg_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/emg_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/resp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/examples/resp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Signal Quality Index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Signal Quality Index.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +81,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
