@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333af504-60e0-429d-89f8-932c3defe325" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz experience.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz experience.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/HRV - Artefact correction-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/HRV - Artefact correction-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/Signal Quality Index-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/.ipynb_checkpoints/Signal Quality Index-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=10).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=10).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=5).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Detectors_comparison (N=5).ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/HDF5 input for SignalBit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/HDF5 input for SignalBit.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/HRV - Artefact correction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/HRV - Artefact correction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Kubios - Artefact correction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Kubios - Artefact correction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubios HRV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scratch.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/AUTHORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/AUTHORS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/CHANGES.md" afterDir="false" />
@@ -64,7 +57,6 @@
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Python/BioSPPy/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldWiz_Python/Signal Quality Index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Python/Signal Quality Index.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
     </key>
   </component>
@@ -101,6 +94,17 @@
       <updated>1601493389758</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="221" y="89" key="SettingsEditor" timestamp="1603646275608">
