@@ -21,7 +21,37 @@
   <component name="ChangeListManager">
     <list default="true" id="333af504-60e0-429d-89f8-932c3defe325" name="Default Changelist" comment="add readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotated/20200401-IR-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotated/20200405-TR-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotated/20200421-JT-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/20200405-TR-FWv2-Annotated.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/20200413-JM-FWv2-Annotated.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/20200421-JT-FWv2-Annotated.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/20200505-TR-Belt-Annotated.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/20200508-SS-Belt-Annotated.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200405-TR-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200405-TR-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200413-JM-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200413-JM-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200421-JT-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200421-JT-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200422-JT-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200422-JT-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200426-JT-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200426-JT-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200426-TR-FWv2.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200426-TR-FWv2.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200505-TR-Belt.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200505-TR-Belt.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200508-SS-Belt.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200508-SS-Belt.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200510-TR-Belt.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200510-TR-Belt.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated_2/Annotated_20200706-zYBko.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Annotated/Annotated_20200706-zYBko.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_1/20200405-TR-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_1/20200413-JM-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_1/20200421-JT-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_1/20200505-TR-Belt.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_1/20200508-SS-Belt.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_2/20200422-JT-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_2/20200426-JT-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_2/20200426-TR-FWv2.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_2/20200510-TR-Belt.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_Dataset/Annotations_Joana/Priority_2/20200511-TR-Belt.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_MATLAB/Algorithm_evaluation.m" beforeDir="false" afterPath="$PROJECT_DIR$/FieldWiz_MATLAB/Algorithm_evaluation.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldWiz_MATLAB/Matlab_server/tb_HRV/20200426-JT-FWv2-MacBook Pro de Tiago.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610209617687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add readme">
+      <created>1610209692868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610209692868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,20 +115,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add readme" />
     <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610210588672">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="414" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1610210588672" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1603646275608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603646275608" />
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1610209602685">
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2" timestamp="1610209698542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610209602685" />
+    <state x="320" y="175" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610209698542" />
     <state x="320" y="194" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1603639059009" />
     <state x="1036" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610209446289">
       <screen x="0" y="0" width="1440" height="900" />

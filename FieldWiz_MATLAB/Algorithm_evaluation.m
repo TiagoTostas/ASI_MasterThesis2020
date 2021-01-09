@@ -35,8 +35,6 @@ hold on
 plot(x2,rpeaksproc_amp,'*r','linewidth',1.5)
 
 
-    
-
 %% Evaluate ECG
 
 ecg = -1.*ecg;
