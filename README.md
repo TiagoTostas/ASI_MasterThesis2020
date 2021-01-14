@@ -1,10 +1,10 @@
-### Heart Rate Monitoring in Sports
+### ASI - Heart Rate Monitoring in Sports
 
 ## FieldWiz Dataset
 These acquisitions can be used for further evaluation of the ECG signal quality with different acquisition settings: 1) Fieldwiz + Belt; 2) FieldWiz + Shirt Version 1; 3) FieldWiz + Shirt Version 2 and 4) Admos Live.
 The metadata relevant to each recording can be found in the header file.
 
-These can be further be used for evaluation of additional algorithms or validate the results in this thesis.
+These can be further be used for evaluation of additional algorithms or validate the results of this thesis.
 
 * Activities:
 
