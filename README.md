@@ -1,5 +1,8 @@
 ### ASI - Heart Rate Monitoring in Sports
 
+## FieldWiz Info
+Miscellaneous information about ASI - Advanced Sports Instruments. Videos/News/Reports.
+
 ## FieldWiz Dataset
 These acquisitions can be used for further evaluation of the ECG signal quality with different acquisition settings: 1) Fieldwiz + Belt; 2) FieldWiz + Shirt Version 1; 3) FieldWiz + Shirt Version 2 and 4) Admos Live.
 The metadata relevant to each recording can be found in the header file.
@@ -23,10 +26,6 @@ Various experiments with electrodes in different configurations, e.g. hand
 * HRV_5min
 
 16 recordings acquired during rest using the FieldWiz + Belt or connected Shirt Version 2
-
-
-## FieldWiz Info
-Miscellaneous information about ASI - Advanced Sports Instruments. Videos/News/Reports.
 
 ## FieldWiz Matlab
 * <u>Database Comparison</u>
